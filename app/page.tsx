@@ -10,7 +10,7 @@ import { Footer } from "./components/ui/Footer";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center font-sans bg-(--color-mint-500)/58">
+    <div className="flex min-h-screen items-center justify-center font-sans">
       <main className="flex min-h-screen w-full">
         <GlobalLayout>
           <TopBar />

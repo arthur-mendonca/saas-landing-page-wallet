@@ -22,7 +22,7 @@ export const CTA = (): React.JSX.Element => {
                 </div>
 
                 <div className="flex justify-center">
-                    <Image src={"/wallet.png"} alt="Wallet Image" width={450} height={360} />
+                    <Image src={"https://cdn.animaapp.com/projects/630dc37cacb332ac4dee2e04/files/1000x800.gif"} alt="Wallet Image" width={450} height={360} className="rounded-[20px]" />
                 </div>
             </div>
         </section>

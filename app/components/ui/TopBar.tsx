@@ -4,7 +4,7 @@ export const TopBar = (): React.JSX.Element => {
     return (
         <header className="relative w-full h-[100px] bg-[#2b2b2b]">
             <nav
-                className="flex items-center justify-between h-full px-[50px]"
+                className="flex items-center justify-between h-full px-6 md:px-[50px]"
                 aria-label="Main navigation"
             >
                 <div className="flex items-center">
@@ -15,7 +15,7 @@ export const TopBar = (): React.JSX.Element => {
                     </h1>
                 </div>
 
-                <div className="flex items-center gap-8">
+                <div className="hidden md:flex items-center gap-8">
                     <button
                         type="button"
                         className="font-['Poppins-Regular',Helvetica] font-normal text-white text-lg text-right tracking-[0] leading-8 cursor-pointer hover:opacity-80 transition-opacity duration-200"
